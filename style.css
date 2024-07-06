@@ -68,7 +68,7 @@ ul a.link0{
     height:600px;
 }
 
-#city,.time{
+#timeDisplay,.time{
     display: flex;
     justify-content: center;
     align-items: center;

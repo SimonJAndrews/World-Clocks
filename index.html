@@ -15,20 +15,19 @@
         
         <p class='logo'>World Clocks</p>
         <ul>
-            
-            <li><a href="#link1" id="london">London</a></li>
-            <li><a href="#link2" id="ball">Yeakterinburgh</a></li>
-            <li><a href="#link3" id="istambul">Istambul</a></li>
-            <li><a href="#link4" class="moscow">Moscow</a></li>
-            <li><a href="#link5" class="dubai">Dubai</a></li>
-          </ul>
+            <li><a onclick="startClock('London')">London</a></li>
+            <li><a onclick="startClock('Moscow')">Moscow</a></li>
+            <li><a onclick="startClock('Yekaterinburg')">Yekaterinburg</a></li>
+            <li><a onclick="startClock('Dubai')">Dubai</a></li>
+            <li><a onclick="startClock('Istanbul')">Istanbul</a></li>
+        </ul>
+
+        
     </nav>
-
-    <div class="main">
-        <p id="city">The time in London is now:</p>
-        <p class="time" id="time"></p>
-    </div>
-
+    <div class="holder">
+        <p id="timeDisplay">The time in London is now:</p>
+        
+        </div>
     <script src="mainjs.js"></script>
 </body>
 <footer>
